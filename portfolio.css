@@ -1,0 +1,273 @@
+/* Roboto font family link  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Philosopher font family link  */
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+/* font-family: 'Philosopher', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,0.877),rgba(0,0,0,0.5)),url(make-up-kit.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+nav{
+    display: flex;
+    padding: 2% 5%;
+}
+nav ul{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    padding: 16px 14px;
+}
+nav ul li a{
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: #e41e45;
+}
+nav ul li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background-color: #e41e45;
+    transition: .5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.portfolio{
+    color: #e41e45;
+}   
+.portfolio::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #e41e45;
+}
+.button{
+    border: 2px solid #e41e45;
+    padding: 15px 30px;
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.button:hover{
+    background-color: #e41e45;
+    transition: .5s;
+}
+.head{
+    padding-top: 5%;
+    text-align: center;
+}
+.head h1{
+    font-size: 80px;
+    font-weight: 400;
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+}
+.gallery{
+    margin: 5%;
+    padding-top: 5%;
+}
+.flex img{
+    border-radius: 10px;
+    width: 20%;
+    border: 2px solid #e41e45;
+    padding: 10px;
+    transform: scale(1.2);
+    margin: 40px 28px;
+}
+.flex img:hover{
+    transform: scale(1.0);
+    transition: .8s;
+}
+.background{
+    width: 100%;
+    height: 40vh;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.665),rgba(248, 4, 4, 0.664)), url(GlitterBG-free-img.jpg);
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding: 6% 40px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    background-color: #e41e45;
+}
+.sides{
+    display: flex;
+}
+.front-side img{
+    width: 100px;
+    margin-top: 10px;
+}
+.mid-side{
+    padding-left: 40px;
+    padding-top: 20px;
+    color: white;
+}
+.mid-side h1{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 39px;
+}
+.mid-side h2{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 19px;
+    padding-top: 10px;
+}
+.last-side{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.button3{
+    border: 2px solid white;
+    padding: 18px 38px;
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.button3:hover{
+    color: #e41e45;
+    background-color: white;
+    transition: .5s;
+}
+.bef{
+    display: flex;
+    margin: 0 80px;
+}
+.bef img{
+    width: 100%;
+    transform: scale(0.8);
+}
+.bef h1{
+    font-size: 49px;
+    color: #e41e45;
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 40px;
+    font-weight: 400;
+}
+/* Footer Section  */
+.footer{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-top: 6%;
+    padding-left: 80px;
+    padding-right: 40px;
+    color: white;
+    margin-top: 8%;
+}
+.footer h1{
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #e41e45;
+    font-family: 'Philosopher', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+.footer p{
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+    line-height: 1.6;
+    font-family: 'Philosopher', sans-serif;
+}
+.footer h3{
+    padding: 4px 0;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 300;
+}
+.icons i{
+    border-radius: 80px;
+    border: 2px solid #e41e45;
+    color: #e41e45;
+    font-size: 22px;
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+.icons i:hover{
+    background-color: #e41e45;
+    color: white;
+}
+.btn{
+    background-color: white;
+    width: 70%;
+    height: 10vh;
+    font-size: 18px;
+    padding-right: 40%;
+    font-family: 'Philosopher', sans-serif;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.btn1{
+    background-color: #e41e45;
+    width: 29%;
+    height: 10vh;
+    font-size: 16px;
+    font-family: 'Philosopher', sans-serif;
+    border-radius: 3px;
+    color: white;
+}
+.btn1:hover{
+    background-color: rgba(209, 11, 11, 0.5);
+    transition: .5s;
+}
+.footer-mid-side{
+    margin: 0 60px;
+}
+.footer-mid-side li{
+    padding-bottom: 10px;
+}
+.footer-mid-side li a{
+    color: white;
+}
+.footer-mid-side li a:hover{
+    color: #e41e45;
+}
+.footer-mid-side .icons i{
+    margin-left: 0;
+    border: 2px solid white;
+    margin-right: 20px;
+}
+.copyright{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #1a1a1a;
+    height: 100px;
+    padding: 22px 0;
+    border-top: 1px solid gainsboro;
+}
+.copyright h1{
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+    font-size: 24px;
+}
